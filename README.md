@@ -28,3 +28,25 @@ A simple automation script that opens the Fiverr app and refreshes the inbox and
 ```bash
 pkg upgrade -y && pkg install python git
 pip install uiautomator2
+cd 
+git clone --depth=1 https://github.com/Mr-Beta-Version/FiverrActive
+
+------------------------------------
+▶️ Run the Script:
+------------------------------------
+   cd FiverrActive
+   python main.py
+
+   (Make sure your device is connected via ADB or Wi-Fi and Fiverr is installed)
+
+------------------------------------
+🧑‍💻 Author:
+------------------------------------
+Muhammad Walid  
+GitHub: @Mr-Beta-Version  
+Telegram: @mdwalidmahmud
+
+------------------------------------
+🛡️ Disclaimer:
+------------------------------------
+This script is intended for educational and personal use only. Fiverr does not officially support automation tools. Use at your own risk.
