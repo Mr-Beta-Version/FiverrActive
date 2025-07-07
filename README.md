@@ -26,6 +26,10 @@ A simple automation script that opens the Fiverr app and refreshes the inbox and
 ## 📦 Installation (Termux + Python)
 ```
 pkg upgrade -y && pkg install python git
+pkg install android-tools -y
+pkg install libxml2 libxslt clang
+pkg install libjpeg-turbo libpng libtiff zlib clang
+pip install lxml
 pip install uiautomator2
 cd 
 git clone --depth=1 https://github.com/Mr-Beta-Version/FiverrActive
