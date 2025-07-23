@@ -14,6 +14,7 @@ import sys
 import os
 import random
 
+os.system("git pull")
 
 if "win" in sys.platform:
     os.system("cls")
@@ -26,9 +27,9 @@ total = 0
 
 d.freeze_rotation(True)
 
-print("===[Lower your screen brightness within 5 seconds...]===")
+print("===[Lower your screen brightness within 10 seconds...]===")
 
-time.sleep(5)
+time.sleep(10)
 
 def sleepS():
     count = random.randint(3, 5)
@@ -79,7 +80,10 @@ while True:
         sleepS()
         scrollUp()
 
+
     print("Waiting 10-15 Minutes...")
+    now = datetime.now().strftime("%I:%M %p")
+    print(f"⏰ Pausing at {now}")
     d.press("home")
     total += 1
     print(f"[>] Total refreshes: {total}")
